@@ -10,5 +10,7 @@ _Applies to `steampowered.com`_
 
 Replaces the SteamOS/Linux icon with the real Linux mascot. Credit to [@Zaeroses](https://github.com/Zaeroses) for the Xenia SVG, which is under the Unlicense.
 
+![Xenia as Linux Icon Preview Image](https://raw.githubusercontent.com/Commenter25/userstyles/master/xeniasteam/preview.png)
+
 ## © Licenses
 Check the individual styles for their correct license. As a general rule, anything in this repo is probably under the Unlicense.
