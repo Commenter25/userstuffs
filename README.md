@@ -6,7 +6,7 @@ Click the name of the style you want, and as long as you have an extension that 
 
 ### [Dark Example](https://raw.githubusercontent.com/Commenter25/userstyles/master/darkexample/darkexample.user.css)  
 
-**`1.0.0`** - _Applies to `example.com`, `example.net`, and `example.org`_
+[**1.0.0**](https://github.com/Commenter25/userstyles/blob/main/darkexample/CHANGELOG.md) - _Applies to `example.com`, `example.net`, and `example.org`_
 
 Native dark mode will be everywhere. Even Example Domain.
 
@@ -14,7 +14,7 @@ Native dark mode will be everywhere. Even Example Domain.
 
 ### [raevision](https://raw.githubusercontent.com/commenter25/userstyles/master/raevision/raevision.user.css)  
 
-**`1.0.0`** - _applies to everything, everywhere_
+[**1.0.0**](https://github.com/commenter25/userstyles/blob/main/raevision/changelog.md) - _applies to everything, everywhere_
 
 hate uppercase letters? do they fill you with spite? hatred? now nobody has a choice! all you will ever see is lowercase letters. unless they're in an image. or not in your browser. or some weird css specificity edge case overrides this.
 
@@ -22,7 +22,7 @@ hate uppercase letters? do they fill you with spite? hatred? now nobody has a ch
 
 ### [Xenia as Linux Icon](https://raw.githubusercontent.com/Commenter25/userstyles/master/xeniasteam/xeniasteam.user.css)  
 
-**`1.0.1`** - _Applies to `steampowered.com`_
+[**1.0.1**](https://github.com/Commenter25/userstyles/blob/main/xeniasteam/CHANGELOG.md) - _Applies to `steampowered.com`_
 
 Replaces the SteamOS/Linux icon with the real Linux mascot. Credit to [@Zaeroses](https://github.com/Zaeroses) for the Xenia SVG, which is under the Unlicense.
 
