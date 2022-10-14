@@ -6,7 +6,7 @@ Click the name of the style you want, and as long as you have an extension that 
 
 ### [Xenia as Linux Icon](https://raw.githubusercontent.com/Commenter25/userstyles/master/xeniasteam/xeniasteam.user.css)  
 
-_Applies to `steampowered.com`_
+**`1.0.1`** - _Applies to `steampowered.com`_ - ![GitHub file size in bytes](https://img.shields.io/github/size/Commenter25/userstyles/xeniasteam/xeniasteam.user.css)
 
 Replaces the SteamOS/Linux icon with the real Linux mascot. Credit to [@Zaeroses](https://github.com/Zaeroses) for the Xenia SVG, which is under the Unlicense.
 
