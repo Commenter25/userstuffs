@@ -1,0 +1,17 @@
+/* ==UserStyle==
+@name           Dark Example
+@namespace      github.com/CommenterOfComments/CommenterUserstyles
+@version        1.0.0
+@description    Native dark mode will be everywhere. Even Example Domain.
+@author         Commenter25
+@homepageURL    https://github.com/Commenter25/userstyles
+@supportURL     https://github.com/Commenter25/userstyles/issues
+@updateURL      https://raw.githubusercontent.com/Commenter25/userstyles/master/darkexample/darkexample.user.css
+@license        Unlicense
+==/UserStyle== */
+
+@-moz-document domain("example.com"), domain("example.net"), domain("example.org") {
+	body { background: #252525; color: #ccc }
+	div { background: #333 }
+	a:link, a:visited { color: #5af }
+}
