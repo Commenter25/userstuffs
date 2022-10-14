@@ -4,8 +4,10 @@ collection of my userstyles that aren't big enough projects for their own repo
 ## ⭳ Downloads
 Click the name of the style you want, and as long as you have an extension that supports UserCSS userstyles [(Stylus is recommended)](https://github.com/openstyles/stylus), then a window should pop up for installing it.
 
-[**Xenia as Linux Icon**](https://raw.githubusercontent.com/Commenter25/userstyles/master/xeniasteam.user.css)  
-_Applies to `steampowered.com`_  
+### [Xenia as Linux Icon](https://raw.githubusercontent.com/Commenter25/userstyles/master/xeniasteam/xeniasteam.user.css)  
+
+_Applies to `steampowered.com`_
+
 Replaces the SteamOS/Linux icon with the real Linux mascot. Credit to [@Zaeroses](https://github.com/Zaeroses) for the Xenia SVG, which is under the Unlicense.
 
 ## © Licenses
