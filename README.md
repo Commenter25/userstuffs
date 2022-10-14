@@ -12,6 +12,14 @@ Native dark mode will be everywhere. Even Example Domain.
 
 ![Dark Example Preview Image](https://raw.githubusercontent.com/Commenter25/userstyles/master/darkexample/preview.png)
 
+### [raevision](https://raw.githubusercontent.com/commenter25/userstyles/master/raevision/raevision.user.css)  
+
+**`1.0.0`** - _applies to everything, everywhere_
+
+hate uppercase letters? do they fill you with spite? hatred? now nobody has a choice! all you will ever see is lowercase letters. unless they're in an image. or not in your browser. or some weird css specificity edge case overrides this.
+
+![raevision preview image](https://raw.githubusercontent.com/commenter25/userstyles/master/raevision/preview.png)
+
 ### [Xenia as Linux Icon](https://raw.githubusercontent.com/Commenter25/userstyles/master/xeniasteam/xeniasteam.user.css)  
 
 **`1.0.1`** - _Applies to `steampowered.com`_
