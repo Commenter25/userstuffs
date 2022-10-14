@@ -25,14 +25,16 @@
     
     /* Some sale pages and stuff */
     .SVGIcon_SteamLogo { 
-        background: var(--xenia) center; 
-        background-size: 20px; /* breaks if all one property?? */
+        background: var(--xenia); 
+        background-position: center; 
+        background-size: 20px
     }
-    .SVGIcon_SteamLogo path { display: none }
+    .SVGIcon_SteamLogo path { fill: #0000 !important; }
     
     /* Install Steam */
     .about_install.linux:not(.mobile) .about_install_steam_link::after {
-      background: var(--xenia) center; 
-      background-size: 22px; /* same story as before */
+      background-image: var(--xenia);
+      background-position: center; 
+      background-size: 22px 
     }
 }
