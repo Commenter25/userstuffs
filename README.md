@@ -16,7 +16,7 @@ Native dark mode will be everywhere. Even Example Domain.
 
 [**1.0.0**](https://github.com/commenter25/userstyles/blob/main/raevision/changelog.md) - _applies to everything, everywhere_
 
-hate uppercase letters? do they fill you with spite? hatred? now nobody has a choice! all you will ever see is lowercase letters. unless they're in an image. or not in your browser. or some weird css specificity edge case overrides this.
+hate uppercase letters? do they fill you with spite? hatred? would you rather everything be small, [nano](https://twitter.com/nano_pone) sized letters? now nobody has a choice! all you will ever see is lowercase letters. unless they're in an image. or not in your browser. or some weird css specificity edge case overrides this.
 
 ![raevision preview image](https://raw.githubusercontent.com/commenter25/userstyles/master/raevision/preview.png)
 
@@ -24,7 +24,7 @@ hate uppercase letters? do they fill you with spite? hatred? now nobody has a ch
 
 [**1.0.1**](https://github.com/Commenter25/userstyles/blob/main/xeniasteam/CHANGELOG.md) - _Applies to `steampowered.com`_
 
-Replaces the SteamOS/Linux icon with the real Linux mascot. Credit to [@Zaeroses](https://github.com/Zaeroses) for the Xenia SVG, which is under the Unlicense.
+Replaces the SteamOS/Linux icon with the real Linux mascot. Credit to [Zaeroses](https://chitter.xyz/@Zaeroses) for the [Xenia SVG](https://github.com/Zaeroses/refind-icons/blob/main/os_linux.svg), which is under the Unlicense. And credit to [nano](https://twitter.com/nano_pone) for the idea!
 
 ![Xenia as Linux Icon Preview Image](https://raw.githubusercontent.com/Commenter25/userstyles/master/xeniasteam/preview.png)
 
