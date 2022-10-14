@@ -28,5 +28,7 @@ Replaces the SteamOS/Linux icon with the real Linux mascot. Credit to [Zaeroses]
 
 ![Xenia as Linux Icon Preview Image](https://raw.githubusercontent.com/Commenter25/userstyles/master/xeniasteam/preview.png)
 
-## © Licenses
-Check the individual styles for their correct license. As a general rule, anything in this repo is probably under the Unlicense.
+## © Licenses & Distribution
+Check the individual styles for their correct license. As a general rule, anything in this repo is probably under the Unlicense, as it would be too simple to re-create to bother copylefting.
+
+For a multitude of reasons, I **do not publish my styles on userstyles.org**, and neither should you. If I begin distributing on another site, I will put that site here. For now, this is the only official source. It's important to trust even your userstyles, as [CSS injection attacks do exist](https://www.mike-gualtieri.com/css-exfil-vulnerability-tester).
