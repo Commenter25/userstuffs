@@ -20,6 +20,12 @@ hate uppercase letters? do they fill you with spite? hatred? would you rather ev
 
 ![raevision preview image](https://raw.githubusercontent.com/commenter25/userstyles/master/raevision/preview.png)
 
+### [Transparent Standalone Images](https://raw.githubusercontent.com/Commenter25/userstyles/master/tpimgs/tpimgs.user.css)  
+
+[**1.0.0**](https://github.com/Commenter25/userstyles/blob/main/tpimgs/CHANGELOG.md) - _Applies to any URL containing `png`, `webp`, or `gif`_
+
+Recreation of the [identically named Firefox extension](https://addons.mozilla.org/en-US/firefox/addon/transparent-standalone-image/), which fixes a bug with transparent images being viewed directly. There are likely limitations compared to the extension, but for most purposes it should work without requiring trusting an entire browser extension. Feel free to report anything it doesn't catch!
+
 ### [Xenia as Linux Icon](https://raw.githubusercontent.com/Commenter25/userstyles/master/xeniasteam/xeniasteam.user.css)  
 
 [**1.0.1**](https://github.com/Commenter25/userstyles/blob/main/xeniasteam/CHANGELOG.md) - _Applies to `steampowered.com`_
