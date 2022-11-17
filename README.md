@@ -28,9 +28,9 @@ Recreation of the [identically named Firefox extension](https://addons.mozilla.o
 
 ### [Xenia as Linux Icon](https://raw.githubusercontent.com/Commenter25/userstyles/master/xeniasteam/xeniasteam.user.css)  
 
-[**1.0.1**](https://github.com/Commenter25/userstyles/blob/main/xeniasteam/CHANGELOG.md) - _Applies to `steampowered.com`_
+[**1.0.2**](https://github.com/Commenter25/userstyles/blob/main/xeniasteam/CHANGELOG.md) - _Applies to `steampowered.com`_
 
-Replaces the SteamOS/Linux icon with the real Linux mascot. Credit to [Zaeroses](https://chitter.xyz/@Zaeroses) for the [Xenia SVG](https://github.com/Zaeroses/refind-icons/blob/main/os_linux.svg), which is under the Unlicense. And credit to [nano](https://twitter.com/nano_pone) for the idea!
+Replaces the SteamOS/Linux icon with the real Linux mascot. Credit to [Zaeroses](https://chitter.xyz/@Zaeroses) for the [Xenia SVG](https://github.com/Zaeroses/refind-icons/blob/main/os_linux.svg), which is under the Unlicense. And credit to [nano](https://nano.lgbt) for the idea!
 
 ![Xenia as Linux Icon Preview Image](https://raw.githubusercontent.com/Commenter25/userstyles/master/xeniasteam/preview.png)
 

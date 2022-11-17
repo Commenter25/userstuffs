@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Xenia as Linux Icon
 @namespace      github.com/Commenter25
-@version        1.0.1
+@version        1.0.2
 @description    Replaces the SteamOS/Linux icon with the real Linux mascot. Credit to Zaeroses for the Xenia SVG, which is under the Unlicense. And credit to nanopone for the idea!
 @author         Commenter25
 @homepageURL    https://github.com/Commenter25/userstyles
@@ -20,7 +20,7 @@
         background-image: var(--xenia) !important; 
     }
     .tab_item.focus .tab_item_details span.platform_img.linux {
-      filter: brightness(100%);
+      filter: brightness(20%);
     }
     
     /* Some sale pages and stuff */
