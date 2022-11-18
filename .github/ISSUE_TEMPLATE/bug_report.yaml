@@ -1,0 +1,48 @@
+name: Bug report
+description: Tell me, tell me, tell me your problems
+labels: ["type: bug"]
+assignees: ["Commenter25"]
+
+body:
+  - type: markdown
+    attributes:
+      value: "Thank you for creating a report! Please be sure to add a short and simple title above, with no tagging like [BUG]."
+
+  - type: dropdown
+    id: style
+    attributes:
+      label: Which style is this issue about?
+      options:
+        - Dark Example
+        - raevision
+        - Transparent Standalone Images
+        - Xenia as Steam Icon
+    validations:
+      required: true
+
+  - type: input
+    id: version
+    attributes:
+      label: What version of the style are you running?
+      description: "You can check this by opening the style's code (usually a pencil button), and checking the 4th line."
+      placeholder: "1.0.0, 1.0.2, 1.2.0, etc"
+    validations:
+      required: true 
+
+  - type: input
+    id: system
+    attributes:
+      label: What are you running the style in?
+      description: "Please provide both your web browser, and your operating system, with version numbers for both. You may add multiple, if you have tested multiple devices."
+      placeholder: "Chrome 106 on Windows 11, Firefox 105 on Ubuntu 22.10, Safari 15.5 on macOS Big Sur 11.5.2, etc"
+    validations:
+      required: true 
+
+  - type: textarea
+    id: whathapen
+    attributes:
+      label: What happened?
+      description: "Please provide a clear and concise description of what the bug is. You may want to give steps detailing how to make the problem appear. Add any other context or screenshots that may be helpful."
+      placeholder: Say what you see!
+    validations:
+      required: true
