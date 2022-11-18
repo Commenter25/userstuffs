@@ -30,7 +30,7 @@ body:
       required: true
 
   - type: textarea
-    id: whathapen
+    id: ideas
     attributes:
       label: "What's some potential ideas or alternatives for this to work?"
       description: "If you can, provide a clear and concise description of how you think this could work best, as well as any alternative solutions or features you've considered. **This is optional, do not feel pressured to think of something!**"

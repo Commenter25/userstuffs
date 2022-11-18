@@ -34,7 +34,7 @@ body:
     attributes:
       label: What are you running the style in?
       description: "Please provide both your web browser, and your operating system, with version numbers for both. You may add multiple, if you have tested multiple devices."
-      placeholder: "Chrome 106 on Windows 11, Firefox 105 on Ubuntu 22.10, Safari 15.5 on macOS Big Sur 11.5.2, etc"
+      placeholder: "Chrome 106 on Windows 11, Firefox 105 on Ubuntu 22.10, etc"
     validations:
       required: true 
 
