@@ -1,0 +1,27 @@
+name: None of the above
+description: "For when you're unsure, or for general questions, like the meaning of life. (spoiler: it's time² ÷ (money - attitude) + √good^evil ÷ (idea + random))"
+labels: ["state: more info"]
+assignees: ["Commenter25"]
+
+body:
+  - type: markdown
+    attributes:
+      value: "Thank you for making an issue! Please be sure to add a short and simple title above, with no tagging like [QUESTION]."
+
+  - type: dropdown
+    id: style
+    attributes:
+      label: "Which style is this issue about? Don't select anything if it's not about a specific one."
+      options:
+        - Dark Example
+        - raevision
+        - Transparent Standalone Images
+        - Xenia as Steam Icon
+
+  - type: textarea
+    id: whathapen
+    attributes:
+      label: "What would you like to say?"
+      placeholder: "Say what you want to say!"
+    validations:
+      required: true

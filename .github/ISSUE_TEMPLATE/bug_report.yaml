@@ -11,7 +11,7 @@ body:
   - type: dropdown
     id: style
     attributes:
-      label: Which style is this issue about?
+      label: "Which style is this issue about?"
       options:
         - Dark Example
         - raevision
@@ -23,7 +23,7 @@ body:
   - type: input
     id: version
     attributes:
-      label: What version of the style are you running?
+      label: "What version of the style are you running?"
       description: "You can check this by opening the style's code (usually a pencil button), and checking the 4th line."
       placeholder: "1.0.0, 1.0.2, 1.2.0, etc"
     validations:
@@ -32,7 +32,7 @@ body:
   - type: input
     id: system
     attributes:
-      label: What are you running the style in?
+      label: "What are you running the style in?"
       description: "Please provide both your web browser, and your operating system, with version numbers for both. You may add multiple, if you have tested multiple devices."
       placeholder: "Chrome 106 on Windows 11, Firefox 105 on Ubuntu 22.10, etc"
     validations:
@@ -41,8 +41,8 @@ body:
   - type: textarea
     id: whathapen
     attributes:
-      label: What happened?
+      label: "What happened?"
       description: "Please provide a clear and concise description of what the bug is. You may want to give steps detailing how to make the problem appear. Add any other context or screenshots that may be helpful."
-      placeholder: Say what you see!
+      placeholder: "Say what you see!"
     validations:
       required: true

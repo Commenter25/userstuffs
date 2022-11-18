@@ -6,7 +6,7 @@ assignees: ["Commenter25"]
 body:
   - type: markdown
     attributes:
-      value: "Thank you for creating a report! Please be sure to add a short and simple title above, with no tagging like [FEATURE]."
+      value: "Thank you for making a request! Please be sure to add a short and simple title above, with no tagging like [FEATURE]."
 
   - type: dropdown
     id: style
@@ -25,7 +25,7 @@ body:
     attributes:
       label: "What's your request?"
       description: "Please provide a clear and concise description of what you want to happen. If it's related to another issue, you should mention that. Add any other context or screenshots that may be helpful."
-      placeholder: Say what you want to see!
+      placeholder: "Say what you want to see!"
     validations:
       required: true
 
@@ -34,4 +34,4 @@ body:
     attributes:
       label: "What's some potential ideas or alternatives for this to work?"
       description: "If you can, provide a clear and concise description of how you think this could work best, as well as any alternative solutions or features you've considered. **This is optional, do not feel pressured to think of something!**"
-      placeholder: Say what will let you see it!
+      placeholder: "Say what will let you see it!"
