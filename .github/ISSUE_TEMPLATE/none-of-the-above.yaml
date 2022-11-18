@@ -11,7 +11,8 @@ body:
   - type: dropdown
     id: style
     attributes:
-      label: "Which style is this issue about? Don't select anything if it's not about a specific one."
+      label: "Which style is this issue about?"
+      description: "Don't select anything if it's not about a specific one."
       options:
         - Dark Example
         - raevision
