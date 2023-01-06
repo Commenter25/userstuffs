@@ -26,6 +26,8 @@ hate uppercase letters? do they fill you with spite? hatred? would you rather ev
 
 Recreation of the [identically named Firefox extension](https://addons.mozilla.org/en-US/firefox/addon/transparent-standalone-image/), which fixes a bug with directly viewed transparent images rendering on a white background. There are likely limitations compared to the extension, but for most purposes it should work without requiring trusting an entire browser extension. Feel free to report anything it doesn't catch!
 
+![transparent standalone images preview image](https://raw.githubusercontent.com/commenter25/userstyles/master/tpimgs/preview.png)
+
 ### [Xenia as Linux Icon](https://raw.githubusercontent.com/Commenter25/userstyles/master/xeniasteam/xeniasteam.user.css)  
 
 [**1.0.2**](https://github.com/Commenter25/userstyles/blob/main/xeniasteam/CHANGELOG.md) - _Applies to `steampowered.com`_
