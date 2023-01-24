@@ -18,7 +18,10 @@ Native dark mode will be everywhere. Even Example Domain.
 
 hate uppercase letters? do they fill you with spite? hatred? would you rather everything be small, [nano](https://twitter.com/nano_pone) sized letters? now nobody has a choice! all you will ever see is lowercase letters. unless they're in an image. or not in your browser. or some weird css specificity edge case overrides this.
 
-![raevision preview image](raevision/preview.png)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="raevision/preview-dark.png">
+  <img alt="raevision preview image" src="raevision/preview.png">
+</picture>
 
 ### [Transparent Standalone Images](https://raw.githubusercontent.com/Commenter25/userstyles/main/tpimgs/tpimgs.user.css)  
 
