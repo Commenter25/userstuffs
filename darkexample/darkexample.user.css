@@ -4,10 +4,10 @@
 @version        1.0.1
 @description    Native dark mode will be everywhere. Even Example Domain.
 @author         Commenter25
-@homepageURL    https://github.com/Commenter25/userstyles
-@supportURL     https://github.com/Commenter25/userstyles/issues
-@updateURL      https://raw.githubusercontent.com/Commenter25/userstyles/master/darkexample/darkexample.user.css
 @license        Unlicense
+@homepageURL    https://github.com/Commenter25/userstuffs
+@supportURL     https://github.com/Commenter25/userstuffs/issues
+@updateURL      https://raw.githubusercontent.com/Commenter25/userstuffs/main/darkexample/darkexample.user.css
 ==/UserStyle== */
 
 @-moz-document domain("example.com"), domain("example.net"), domain("example.org") {

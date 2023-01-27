@@ -4,13 +4,12 @@
 @version        1.0.0
 @description    Recreation of the identically named Firefox extension, fixing a bug with transparent images being viewed directly. There are likely limitations compared to the extension, but for most purposes it should work without requiring trusting an entire browser extension. Feel free to report anything it doesn't catch!
 @author         Commenter25
-@homepageURL    https://github.com/Commenter25/userstyles
-@supportURL     https://github.com/Commenter25/userstyles/issues
-@updateURL      https://raw.githubusercontent.com/Commenter25/userstyles/master/tpimgs/tpimgs.user.css
 @license        Unlicense
+@homepageURL    https://github.com/Commenter25/userstuffs
+@supportURL     https://github.com/Commenter25/userstuffs/issues
+@updateURL      https://raw.githubusercontent.com/Commenter25/userstuffs/main/tpimgs/tpimgs.user.css
 ==/UserStyle== */
 
 @-moz-document regexp(".*png.*"), regexp(".*webp.*"), regexp(".*gif.*") {
 	img.transparent { background: none }
 }
-

@@ -8,5 +8,5 @@ Past versions will link to their respective commit. Current versions will not du
 Fixed:
   - Incorrect namespace
 
-## 2022-10-14 - [1.0.0](https://github.com/Commenter25/userstyles/blob/d2e72c503144272db513ce939a4652c16d792c45/darkexample/darkexample.user.css)
+## 2022-10-14 - [1.0.0](https://github.com/Commenter25/userstuffs/blob/d2e72c503144272db513ce939a4652c16d792c45/darkexample/darkexample.user.css)
 Initial release

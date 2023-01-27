@@ -4,10 +4,10 @@
 @version        1.0.1
 @description    hate uppercase letters? do they fill you with spite? hatred? now nobody has a choice! all you will ever see is lowercase letters. unless they're in an image. or not in your browser. or some weird css specificity edge case overrides this.
 @author         commenter25
-@homepageURL    https://github.com/commenter25/userstyles
-@supportURL     https://github.com/commenter25/userstyles/issues
-@updateURL      https://raw.githubusercontent.com/commenter25/userstyles/master/raevision/raevision.user.css
 @license        unlicense
+@homepageURL    https://github.com/commenter25/userstuffs
+@supportURL     https://github.com/commenter25/userstuffs/issues
+@updateURL      https://raw.githubusercontent.com/commenter25/userstuffs/main/raevision/raevision.user.css
 ==/userstyle== */
 
 @-moz-document regexp(".*") {

@@ -11,7 +11,7 @@ body:
   - type: dropdown
     id: style
     attributes:
-      label: "Which style is this issue about?"
+      label: "What userthingy is this issue about?"
       options:
         - Dark Example
         - raevision
@@ -23,20 +23,20 @@ body:
   - type: input
     id: version
     attributes:
-      label: "What version of the style are you running?"
-      description: "You can check this by opening the style's code (usually a pencil button), and checking the 4th line."
+      label: "What version are you running?"
+      description: "If you can't find it anywhere, it should always be on the 4th line of code."
       placeholder: "1.0.0, 1.0.2, 1.2.0, etc"
     validations:
-      required: true 
+      required: true
 
   - type: input
     id: system
     attributes:
-      label: "What are you running the style in?"
+      label: "What browser are you using?"
       description: "Please provide both your web browser, and your operating system, with version numbers for both. You may add multiple, if you have tested multiple devices."
       placeholder: "Chrome 106 on Windows 11, Firefox 105 on Ubuntu 22.10, etc"
     validations:
-      required: true 
+      required: true
 
   - type: textarea
     id: whathapen
