@@ -28,16 +28,6 @@ const timer = ms => new Promise(res => setTimeout(res, ms));
 const defaultRefer = "nano";
 const defaultRefed = "https://raw.githubusercontent.com/Commenter25/userstuffs/main/refdetect/nano.webp";
 
-function blobToData(blob) {
-	return new Promise(res=> {
-		let reader = new FileReader()
-		reader.addEventListener("load", () => {
-			res(reader.result);
-		}, false);
-		reader.readAsDataURL(blob);
-	});
-}
-
 // fallback on dirtier methods if csp is a bitch
 let allClear = true, problems = false, noblobs = false, nostyletag = false, noframes = false;
 let genericWarn = "Reference Detector: CSP too strict, unable to run! "
@@ -75,18 +65,20 @@ testStyle.remove();
 let theReferencer = await GM_getValue("theReferencer", defaultRefer).split(',');
 theReferencer = theReferencer.map(s => s.trim());
 let theURI = await GM_getValue("theReferenced", defaultRefed);
-let theBlob;
 let theReferenced = await new Promise(async res=>{
 	GM_xmlhttpRequest({
 		url: theURI,
 		responseType: "blob",
-		onload: async ({ response }) => { theBlob = response; res(URL.createObjectURL(response)); }
+		onload: async ({ response }) => { res(URL.createObjectURL(response)); }
 	});
 })
 
 async function checkProblems() {
 	await timer(1);
-	while (!allClear) await timer(50);
+	while (true) {
+		if (allClear) break;
+		await timer(50);
+	}
 }
 await checkProblems(); if (problems) return;
 
@@ -161,11 +153,11 @@ async function downscaleImg() {
 
 		cot.drawImage(cavDown, 0,0, finalWidth, finalHeight, 0,0, cav.width, cav.height);
 
-		theURI = await cav.toDataURL("image/webp", 0.9);
+		theURI = cav.toDataURL("image/webp", 0.9);
 		if (noblobs) {
 			theReferenced = theURI;
 		} else {
-			await cav.toBlob(async (blob) => { theBlob = blob; theReferenced = await URL.createObjectURL(blob); });
+			cav.toBlob(async (blob) => { theReferenced = URL.createObjectURL(blob); });
 		}
 	}
 	GM_setValue("theReferenced", theURI)
@@ -314,13 +306,12 @@ async function scanDoc(from) {
 			const val = i.nodeValue;
 			if (val === null) continue;
 
-			let str, poststr;
+			let str;
 			for (let ref of theReferencer) {
 				const match = val.search(new RegExp(ref, "gi"));
 				if (match < 0) continue;
 
 				str = i.splitText(match);
-				poststr = str.splitText(ref.length);
 				break;
 			}
 			if (!str) continue;

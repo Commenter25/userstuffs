@@ -40,7 +40,7 @@ By default, it will detect [nano](https://nano.lgbt) references, and you can con
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="refdetect/preview-dark.png">
-  <img alt="Reference Detector Preview Image" src="refdetect/preview.png">
+  <img alt="Reference Detector Preview Image" src="refdetect/preview.png" style="position:relative;left:-1.8em">
 </picture>
 
 ### 🎨 [Transparent Standalone Images](https://raw.githubusercontent.com/Commenter25/userstuffs/main/tpimgs/tpimgs.user.css)
