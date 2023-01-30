@@ -20,10 +20,7 @@ Native dark mode will be everywhere. Even Example Domain.
 
 hate uppercase letters? do they fill you with spite? hatred? would you rather everything be small, [nano](https://twitter.com/nano_pone) sized letters? now nobody has a choice! all you will ever see is lowercase letters. unless they're in an image. or not in your browser. or some weird css specificity edge case overrides this.
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="raevision/preview-dark.png">
-  <img alt="raevision preview image" src="raevision/preview.png">
-</picture>
+![raevision preview image](raevision/preview.png)
 
 ### 📜 [Reference Detector](https://raw.githubusercontent.com/Commenter25/userstuffs/main/refdetect/refdetect.user.js)
 
@@ -38,10 +35,7 @@ We've all wandered the web and wondered "wow, i wonder if what i'm witnessing is
 
 By default, it will detect [nano](https://nano.lgbt) references, and you can configure it to anything you wish!
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="refdetect/preview-dark.png">
-  <img alt="Reference Detector Preview Image" src="refdetect/preview.png" style="position: relative; left: -1.8em">
-</picture>
+<img src="refdetect/preview.png" alt="Reference Detector Preview Image" style="position: relative; left: -1.8em">
 
 ### 🎨 [Transparent Standalone Images](https://raw.githubusercontent.com/Commenter25/userstuffs/main/tpimgs/tpimgs.user.css)
 
