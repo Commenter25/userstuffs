@@ -15,6 +15,7 @@ body:
       options:
         - Dark Example
         - raevision
+        - Reference Detector
         - Transparent Standalone Images
         - Xenia as Steam Icon
     validations:
@@ -33,8 +34,17 @@ body:
     id: system
     attributes:
       label: "What browser are you using?"
-      description: "Please provide both your web browser, and your operating system, with version numbers for both. You may add multiple, if you have tested multiple devices."
+      description: "Please provide both your web browser, and your operating system, with version numbers for both. You may add multiple if you have tested multiple."
       placeholder: "Chrome 106 on Windows 11, Firefox 105 on Ubuntu 22.10, etc"
+    validations:
+      required: true
+
+  - type: input
+    id: extension
+    attributes:
+      label: "How are you using the userthingy?"
+      description: "Please provide the name of the extension you're using. You may add multiple if you have tested multiple."
+      placeholder: "Stylus, Violentmonkey, etc"
     validations:
       required: true
 
