@@ -110,7 +110,7 @@ async function downscaleImg() {
 		async function downscale() {
 			downs = downs * 2; let oldCav;
 			await new Promise(async res=>{
-				await cavDown.toBlob(async (blob) => { oldCav = await URL.createObjectURL(blob); res(); });
+				cavDown.toBlob(async (blob) => { oldCav = URL.createObjectURL(blob); res(); });
 			});
 			let img = new Image();
 			await new Promise(res=>{
