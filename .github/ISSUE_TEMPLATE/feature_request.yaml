@@ -15,6 +15,7 @@ body:
       options:
         - Dark Example
         - raevision
+        - Reference Detector
         - Transparent Standalone Images
         - Xenia as Steam Icon
     validations:
