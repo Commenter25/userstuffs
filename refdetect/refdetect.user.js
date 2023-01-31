@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Reference Detector
 // @namespace    github.com/Commenter25
-// @version      1.0.0
+// @version      1.0.1
 // @description  We've all wandered the web and wondered "wow, i wonder if what i'm witnessing is a reference to something?". Never live in doubt again, for this script uses the tried and true clickbait strategy of red circles to draw your eyes to any reference you wish!
 // @author       Commenter25
 // @license      MIT
@@ -306,12 +306,13 @@ async function scanDoc(from) {
 			const val = i.nodeValue;
 			if (val === null) continue;
 
-			let str;
+			let str, poststr;
 			for (let ref of theReferencer) {
 				const match = val.search(new RegExp(ref, "gi"));
 				if (match < 0) continue;
 
 				str = i.splitText(match);
+				poststr = str.splitText(ref.length);
 				break;
 			}
 			if (!str) continue;
