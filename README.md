@@ -27,7 +27,7 @@ hate uppercase letters? do they fill you with spite? hatred? would you rather ev
 
 ### 📜 [Reference Detector](https://raw.githubusercontent.com/Commenter25/userstuffs/main/refdetect/refdetect.user.js)
 
-[**1.0.0**](refdetect/CHANGELOG.md) - _applies to everything, everywhere_
+[**1.0.1**](refdetect/CHANGELOG.md) - _applies to everything, everywhere_
 
 We've all wandered the web and wondered "wow, i wonder if what i'm witnessing is a reference to something?". Never live in doubt again, for this script uses the tried and true clickbait strategy of red circles to draw your eyes to any reference you wish!
 
