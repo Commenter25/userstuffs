@@ -36,7 +36,7 @@ We've all wandered the web and wondered "wow, i wonder if what i'm witnessing is
   - does not overuse `overflow: hidden`
   - does not have overly specific styling
 
-By default, it will detect [nano](https://nano.lgbt) references, and you can configure it to anything you wish!
+By default, it will detect [nano](https://nano.lgbt) references, and you can configure it to anything you wish, like [OB](refdetect/ob.webp?raw=1) or [Finger](refdetect/finger.webp?raw=1)!
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="refdetect/preview-dark.png">
