@@ -4,7 +4,12 @@ this changelog is based on [keep a changelog](https://keepachangelog.com/), and 
 
 past versions will link to their respective commit. current versions will not due to temporal paradoxes.
 
-## 2023-01-06 - 1.0.1
+## unreleased
+changed:
+  - metadata order
+  - shorter description
+
+## 2023-01-06 - [1.0.1](https://github.com/commenter25/userstuffs/blob/1c7391b22424d262391448b95e3367abe577401a/raevision/raevision.user.css)
 fixed:
   - use a `.*` regex rather than unmarked global
 
