@@ -1,15 +1,15 @@
 /* ==UserStyle==
 @name           Transparent Standalone Images
 @namespace      github.com/Commenter25
-@version        1.0.0
-@description    Recreation of the identically named Firefox extension, fixing a bug with transparent images being viewed directly. There are likely limitations compared to the extension, but for most purposes it should work without requiring trusting an entire browser extension. Feel free to report anything it doesn't catch!
-@author         Commenter25
+@version        1.0.1
 @license        Unlicense
+@author         Commenter25
+@description    Recreation of the identically named Firefox extension, fixing a bug with transparent images being viewed directly.
 @homepageURL    https://github.com/Commenter25/userstuffs
 @supportURL     https://github.com/Commenter25/userstuffs/issues
 @updateURL      https://raw.githubusercontent.com/Commenter25/userstuffs/main/tpimgs/tpimgs.user.css
 ==/UserStyle== */
 
-@-moz-document regexp(".*png.*"), regexp(".*webp.*"), regexp(".*gif.*") {
+@-moz-document regexp(".*(png|gif|webp).*") {
 	img.transparent { background: none }
 }
