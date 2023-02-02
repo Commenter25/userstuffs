@@ -1,10 +1,10 @@
 // ==UserScript==
 // @name         Reference Detector
 // @namespace    github.com/Commenter25
-// @version      1.0.1
-// @description  We've all wandered the web and wondered "wow, i wonder if what i'm witnessing is a reference to something?". Never live in doubt again, for this script uses the tried and true clickbait strategy of red circles to draw your eyes to any reference you wish!
-// @author       Commenter25
+// @version      1.0.2
 // @license      MIT
+// @author       Commenter25
+// @description  We've all wandered the web and wondered "wow, i wonder if what i'm witnessing is a reference to something?". Never live in doubt again, for this script uses the tried and true clickbait strategy of red circles to draw your eyes to any reference you wish!
 // @homepageURL  https://github.com/Commenter25/userstuffs
 // @supportURL   https://github.com/Commenter25/userstuffs/issues
 // @updateURL    https://raw.githubusercontent.com/Commenter25/userstuffs/main/refdetect/refdetect.meta.js
@@ -273,23 +273,23 @@ if (nostyletag || noframes) {
 
 const styleBox = `display: inline !important; position: relative !important; box-shadow: 0 0 0 0.1em #f00 !important; border-radius: 100% !important;`
 const styleGeneric = `
-all: initial !important; display: inline !important; position: absolute !important;
+all: initial !important; position: absolute !important;
 -webkit-user-select: none !important; -moz-user-select: none !important;
 user-select: none !important; cursor: default !important; pointer-events: none !important;`
 const styleImg = `
-width: 50px !important; height: 50px !important; vertical-align: top !important;
+width: 50px !important; height: 50px !important;
 object-fit: contain !important; object-position: bottom !important;
 transform: translateY(-90%) translateX(calc(-1em + -30px)) !important;`
 const styleLine = `
 width: 1px !important; height: 1.2em !important;
-border-left: 0.1em solid red !important; vertical-align: middle !important;
+border-left: 0.1em solid red !important;
 transform: translate(-0.65em, -0.3em) rotate(-68deg) !important;`
 if (!nostyletag) {
-	document.head.insertAdjacentHTML("beforeend", `<style id="refdetectcss">
-	.refdetect { ${styleBox} }
-	.refdetect-gen { ${styleGeneric} }
-	.refdetectimg { ${styleImg} }
-	.refdetectline  { ${styleLine} }
+	document.documentElement.insertAdjacentHTML("beforeend", `<style id="refdetectcss">
+	span.refdetect[refdetectattr][style] { ${styleBox} }
+	span.refdetect[refdetectattr][style] > .refdetect-gen[refdetectattr] { ${styleGeneric} }
+	span.refdetect[refdetectattr][style] > img.refdetectimg.refdetect-gen[refdetectattr][src] { ${styleImg} }
+	span.refdetect[refdetectattr][style] > div.refdetectline.refdetect-gen[refdetectattr]  { ${styleLine} }
 	</style>`);
 }
 
@@ -306,19 +306,21 @@ async function scanDoc(from) {
 			const val = i.nodeValue;
 			if (val === null) continue;
 
-			let str, poststr;
+			let str;
 			for (let ref of theReferencer) {
 				const match = val.search(new RegExp(ref, "gi"));
 				if (match < 0) continue;
 
 				str = i.splitText(match);
-				poststr = str.splitText(ref.length);
+				str.splitText(ref.length);
 				break;
 			}
 			if (!str) continue;
 
 			const span = document.createElement("span");
 			span.className = "refdetect";
+			span.setAttribute("refdetectattr", "");
+			span.style = "display: inline !important"
 			if (nostyletag) span.style = styleBox;
 			/* broken by pointer-events: none, as i don't know how else to make it not show the link hover
 			span.onclick = (e)=> {
@@ -348,12 +350,14 @@ async function scanDoc(from) {
 	for (let i of references) {
 		const line = document.createElement("div");
 		line.className = "refdetect-gen refdetectline";
+		line.setAttribute("refdetectattr", "");
 		if (nostyletag) line.style = styleGeneric + styleLine;
 
 		const img = document.createElement("img");
 		img.className = "refdetect-gen refdetectimg";
+		img.setAttribute("refdetectattr", "");
 		if (nostyletag) img.style = styleGeneric + styleImg;
-		img.src = theReferenced
+		img.src = theReferenced;
 
 		i.prepend(line); i.prepend(img);
 	}
