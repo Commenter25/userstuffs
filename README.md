@@ -8,7 +8,7 @@ Click a name, and if you have a working extension, an install window should appe
 
 ### 🎨 [Dark Example](darkexample/darkexample.user.css?raw=1)
 
-[**1.0.0**](darkexample/CHANGELOG.md) - _Applies to `example.com`, `example.net`, and `example.org`_
+[**1.0.1**](darkexample/CHANGELOG.md) - _Applies to `example.com`, `example.net`, and `example.org`_
 
 Native dark mode will be everywhere. Even Example Domain.
 
@@ -16,7 +16,7 @@ Native dark mode will be everywhere. Even Example Domain.
 
 ### 🎨 [raevision](raevision/raevision.user.css?raw=1)
 
-[**1.0.0**](raevision/changelog.md) - _applies to everything, everywhere_
+[**1.0.1**](raevision/changelog.md) - _applies to everything, everywhere_
 
 hate uppercase letters? do they fill you with spite? hatred? would you rather everything be small, [nano](https://nano.lgbt) sized letters? now nobody has a choice! all you will ever see is lowercase letters. unless they're in an image. or not in your browser. or some weird css specificity edge case overrides this.
 
