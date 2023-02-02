@@ -5,7 +5,7 @@ This changelog is based on [Keep a Changelog](https://keepachangelog.com/), and 
 Past versions will link to their respective commit. Current versions will not due to temporal paradoxes.
 
 ## 2023-02-01 - 1.0.1
-Changed:
+### Changed:
   - Metadata order
   - Shorter description
   - Simplified regex
