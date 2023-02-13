@@ -7,6 +7,7 @@ Past versions will link to their respective commit. Current versions will not du
 ## Unreleased
 ### Changed:
   - Metadata order
+  - Add commenter.cc to `@author`
 
 ## 2023-01-06 - [1.0.1](https://github.com/Commenter25/userstuffs/blob/1c7391b22424d262391448b95e3367abe577401a/darkexample/darkexample.user.css)
 ### Fixed:

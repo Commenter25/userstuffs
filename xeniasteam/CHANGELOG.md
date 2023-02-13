@@ -4,7 +4,11 @@ This changelog is based on [Keep a Changelog](https://keepachangelog.com/), and 
 
 Past versions will link to their respective commit. Current versions will not due to temporal paradoxes.
 
-## 2023-02-01 - 1.0.3
+## Unreleased
+### Changed:
+  - Add commenter.cc to `@author`
+
+## 2023-02-01 - [1.0.3](https://github.com/Commenter25/userstuffs/blob/cc36349d723140e8797df35f91874df3976415ff/xeniasteam/xeniasteam.user.css)
 ### Changed:
   - Metadata order
   - Shorter description

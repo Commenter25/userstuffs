@@ -4,7 +4,11 @@ This changelog is based on [Keep a Changelog](https://keepachangelog.com/), and 
 
 Past versions will link to their respective commit. Current versions will not due to temporal paradoxes.
 
-## 2023-02-01 - 1.0.1
+## Unreleased
+### Changed:
+  - Add commenter.cc to `@author`
+
+## 2023-02-01 - [1.0.1](https://github.com/Commenter25/userstuffs/blob/eb025d691a83fef881672f7cf977c6e8c91c4e68/tpimgs/tpimgs.user.css)
 ### Changed:
   - Metadata order
   - Shorter description
