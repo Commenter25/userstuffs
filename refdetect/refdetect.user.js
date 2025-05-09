@@ -9,7 +9,7 @@
 // @supportURL   https://github.com/Commenter25/userstuffs/issues
 // @updateURL    https://raw.githubusercontent.com/Commenter25/userstuffs/main/refdetect/refdetect.meta.js
 // @downloadURL  https://raw.githubusercontent.com/Commenter25/userstuffs/main/refdetect/refdetect.user.js
-// @copyright    Copyright (c) 2023 Commenter25
+// @copyright    Copyright (c) 2025 Commenter25
 // @icon         https://raw.githubusercontent.com/Commenter25/userstuffs/main/refdetect/icon.png
 // @match        <all_urls>
 // @run-at       document-idle
@@ -25,8 +25,8 @@
 (async ()=>{"use strict";
 const timer = ms => new Promise(res => setTimeout(res, ms));
 
-const defaultRefer = "nano";
-const defaultRefed = "https://raw.githubusercontent.com/Commenter25/userstuffs/main/refdetect/nano.webp";
+const defaultRefer = "finger";
+const defaultRefed = "https://raw.githubusercontent.com/Commenter25/userstuffs/refs/heads/main/refdetect/finger.webp";
 
 // fallback on dirtier methods if csp is a bitch
 let allClear = true, problems = false, noblobs = false, nostyletag = false, noframes = false;

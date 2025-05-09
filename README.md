@@ -14,15 +14,15 @@ Native dark mode will be everywhere. Even Example Domain.
 
 ![Dark Example Preview Image](darkexample/preview.png)
 
-### 🎨 [raevision](raevision/raevision.user.css?raw=1)
+### 🎨 [wurtzvision](wurtzvision/wurtzvision.user.css?raw=1)
 
-[**1.0.1**](raevision/changelog.md) - _applies to everything, everywhere_
+[**1.0.1**](wurtzvision/changelog.md) - _applies to everything, everywhere_
 
-hate uppercase letters? do they fill you with spite? hatred? would you rather everything be small, [nano](https://nano.lgbt) sized letters? now nobody has a choice! all you will ever see is lowercase letters. unless they're in an image. or not in your browser. or some weird css specificity edge case overrides this.
+are you a normal person living on earth? do you use lowercase like a normal person? do you get confused when people don't fit in? now nobody has a choice! all you will ever see is lowercase letters. unless they're in an image. or not in your browser. or some weird css specificity edge case overrides this.
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="raevision/preview-dark.png">
-  <img alt="raevision preview image" src="raevision/preview.png">
+  <source media="(prefers-color-scheme: dark)" srcset="wurtzvision/preview-dark.png">
+  <img alt="wurtzvision preview image" src="wurtzvision/preview.png">
 </picture>
 
 ### 📜 [Reference Detector](refdetect/refdetect.user.js?raw=1)
@@ -36,7 +36,7 @@ We've all wandered the web and wondered "wow, i wonder if what i'm witnessing is
   - does not overuse `overflow: hidden`
   - does not have overly specific styling
 
-By default, it will detect [nano](https://nano.lgbt) references, and you can configure it to anything you wish, like [OB](refdetect/ob.webp?raw=1) or [Finger](refdetect/finger.webp?raw=1)!
+By default, it will detect [Finger](refdetect/finger.webp?raw=1) references, and you can configure it to anything you wish, like [OB](refdetect/ob.webp?raw=1)!
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="refdetect/preview-dark.png">
@@ -55,7 +55,7 @@ Recreation of the [identically named Firefox extension](https://addons.mozilla.o
 
 [**1.0.3**](xeniasteam/CHANGELOG.md) - _Applies to `steampowered.com`_
 
-Replaces the SteamOS/Linux icon with the real Linux mascot. Credit to [Zaeroses](https://chitter.xyz/@Zaeroses) for the [Xenia SVG](https://github.com/Zaeroses/refind-icons/blob/main/os_linux.svg), which is under the Unlicense. And credit to [nano](https://nano.lgbt) for the idea!
+Replaces the SteamOS/Linux icon with the real Linux mascot. Credit to [Zaeroses](https://chitter.xyz/@Zaeroses) for the [Xenia SVG](https://github.com/Zaeroses/refind-icons/blob/main/os_linux.svg), which is under the Unlicense.
 
 ![Xenia as Linux Icon Preview Image](xeniasteam/preview.png)
 

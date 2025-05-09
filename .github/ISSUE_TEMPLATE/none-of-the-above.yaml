@@ -15,7 +15,7 @@ body:
       description: "Don't select anything if it's not about a specific one."
       options:
         - Dark Example
-        - raevision
+        - wurtzvision
         - Reference Detector
         - Transparent Standalone Images
         - Xenia as Steam Icon

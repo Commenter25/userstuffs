@@ -9,7 +9,7 @@
 // @supportURL   https://github.com/Commenter25/userstuffs/issues
 // @updateURL    https://raw.githubusercontent.com/Commenter25/userstuffs/main/refdetect/refdetect.meta.js
 // @downloadURL  https://raw.githubusercontent.com/Commenter25/userstuffs/main/refdetect/refdetect.user.js
-// @copyright    Copyright (c) 2023 Commenter25
+// @copyright    Copyright (c) 2025 Commenter25
 // @icon         https://raw.githubusercontent.com/Commenter25/userstuffs/main/refdetect/icon.png
 // @match        <all_urls>
 // @run-at       document-idle
